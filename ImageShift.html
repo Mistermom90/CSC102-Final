@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Shift</title>
+    <script src="imgshift.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <!-- linked my css so that all of my pages were uniform-->
+</head>
+<body>
+    <center>
+        <button id = "startShift" onclick = "startImg()" >Start</button>
+        <button id = "stopShift" onclick = "stopImg()">Stop</button>
+    </center>
+    <img src = "D2.jpeg" id = "destinyImg" style = "position: absolute; left: 75; top: 25;
+        width: 400px;"/>
+        <br>
+        <h1> Navigation</h1>
+        <table id = "Webpages" border="5" width "100%" style="border-color: black; border-radius: 15px;">    
+            <thead>
+                <th style = "width: 25%;">Name </th>
+                <th style = "width: 75%;">Link </th>
+
+                <col style = "background-color: chartreuse;">
+                <col style = "background-color: cornflowerblue;">
+            </thead>
+
+            <tbody>
+                <tr class="relative">
+                    <td>Home</td>
+                    <td><a href="Index.html" class="after:absolute after:inset-0">Home Page</a></td>
+                </tr>
+            </tbody>
+        </table>
+                <!-- added button id's and wrote my javascript for movement
+                 Bernard King
+                 10NOV24
+                 event driven assignment --> 
+</body>
+<footer>
+    Bernard W. King III <br>
+    University of Advancing Technology <br>
+    2625 W Baseline Rd, <br>
+    Tempe, AZ 85283
+</footer>
+<!-- updated footer to make my webpages uniform
+ Bernard King
+ 17NOV24
+ -->
+</html>

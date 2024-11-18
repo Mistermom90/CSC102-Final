@@ -1,0 +1,108 @@
+body
+{
+    background-image: url(space.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: ghostwhite;
+    align-self: center;
+}
+img
+{
+    width: 500px;
+    height: 250px;
+}
+
+table
+{
+    margin-left: 400px;
+    color: black;
+    align-self: center;
+    width: 450px;
+    height: 175px;
+}
+
+footer
+{
+    text-align: center;
+    background-color: rgb(45, 15, 45);
+    color: ghostwhite;
+}
+
+h1
+{
+    text-align: center;
+    margin-left: 50px;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-shadow: black;
+}
+button
+{
+    color: chartreuse;
+    background-color: black;
+    border-color: ghostwhite;
+    border-style: groove;
+    cursor: crosshair;
+    height: 45px;
+    width: 90px;
+    border-radius: 15px;
+    align-content: center;
+}
+h2
+{
+    color: chartreuse;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+form
+{
+    text-align: left;
+    background-color: chartreuse;
+    color: black;
+    border-style: ridge;
+    border-width: 50px;
+    border-color: black;
+}
+p
+{
+    text-align: center;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-top: 20px;
+    align-self: center;
+}
+a
+{
+    color: ghostwhite;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+audio   
+{
+    margin-left: 450px;
+    background-color: chartreuse;
+    padding: 5px;    
+}
+h3
+{
+    align-content: center;
+    align-self: center;
+    margin-left: 350px;
+}
+p1
+{
+    text-align: center;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-decoration: solid;
+    margin-left: 350px;
+}
+p2
+{
+    text-align: center;
+    color: ghostwhite;
+    margin-left: 350px;
+    font-size: x-large;    
+}

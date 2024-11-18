@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src = "Make_Model_Year.js"></script>
+<link rel="stylesheet" href="main.css">
+<body>
+    <!--adding a form to my Index for User interface.
+        Bernard King
+        03NOV24
+        -->
+        <form id = "inputForm" onsubmit = "return false">
+            Make Name : <input type = "text" id = "makeString"/>
+            <br>
+            Model Name : <input type = "text" id = "modelString"/>
+            <br>
+            Year : <input type = "number" id = "yearString"/>
+            <br>
+            <input type = "submit" onclick = "validate()"/>
+         <!-- still can not get my validate to work for my correct/incorrect answer
+          (switche my if and else and it is working now)
+          Bernard King
+          03NOV24 Forms update          
+         -->   
+        </form>
+        <p id = "inputStatus"> Status of Vehicle Input</p>
+        <br>
+        <h1> Navigation</h1>
+            <table id = "Webpages" border="5" width "100%" style="border-color: black; border-radius: 15px;">    
+                <thead>
+                    <th style = "width: 25%;">Name </th>
+                    <th style = "width: 75%;">Link </th>
+    
+                    <col style = "background-color: chartreuse;">
+                    <col style = "background-color: cornflowerblue;">
+                </thead>
+    
+                <tbody>
+                    <tr class="relative">
+                        <td>Home</td>
+                        <td><a href="Index.html" class="after:absolute after:inset-0">Home Page</a></td>
+                    </tr>
+                </tbody>
+            </table>
+</body>
+<footer>
+    Bernard W. King III <br>
+    University of Advancing Technology <br>
+    2625 W Baseline Rd, <br>
+    Tempe, AZ 85283
+</footer>
+</html>

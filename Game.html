@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="main.css">
+    <script src = "BlackJack.js"></script>
+</head>
+<h1>Welcome to Bernie's Game Page</h1>
+<body>
+    <!--
+    I am trying out a new game that I thought of.  Simplifying blackjack and seeing if this new code works.
+    Bernard W. King
+    Assignment CSC 102 2.2 Functions
+    -->
+    <h3>
+    <button onclick = "firstFunc()" >First Function</button>
+    <br>
+    <button onclick = "average(4,7)">Average Function</button>
+    <br>
+    <button id = "play" onclick = "playBlackJack()">Play</button>
+    </h3>
+    <p1>Dealer</p1>
+    <br>
+    <p2 id = "dealerScore"></p2>
+    <br>
+    <p1>Player</p1>
+    <br>
+    <p2 id = "playerScore"></p2>
+
+    <p id = "finalResult"></p>
+    <br>
+    <h1> Navigation</h1>
+            <table id = "Webpages" border="5" width "100%" style="border-color: black; border-radius: 15px;">    
+                <thead>
+                    <th style = "width: 25%;">Name </th>
+                    <th style = "width: 75%;">Link </th>
+    
+                    <col style = "background-color: chartreuse;">
+                    <col style = "background-color: cornflowerblue;">
+                </thead>
+    
+                <tbody>
+                    <tr class="relative">
+                        <td>Home</td>
+                        <td><a href="Index.html" class="after:absolute after:inset-0">Home Page</a></td>
+                    </tr>
+                </tbody>
+            </table>
+</body>
+<footer>
+    Bernard W. King III <br>
+    University of Advancing Technology <br>
+    2625 W Baseline Rd, <br>
+    Tempe, AZ 85283
+</footer>
+</html>
